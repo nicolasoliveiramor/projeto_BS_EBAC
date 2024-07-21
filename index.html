@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3 fw-bold ">Moderna Móveis</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a data-easing href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1 fs-5"></i>
+                            Sobre nós</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a data-easing href="#sofisticacao" class="nav-link">
+                            <i class="bi bi-star fs-5"></i>
+                            Sofisticação</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a data-easing href="#produtos" class="nav-link">
+                            <i class="bi bi-bag-heart me-1 fs-5"></i>
+                            Nossos produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a data-easing href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-text me-1 fs-5"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">        
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"  data-bs-interval="3000">
+                        <img class="w-100" src="./projeto images/img-carousel-1.jpg" alt="Mesa ao ar-livre">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./projeto images/img-carousel-2.jpg" alt="Mesa de restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./projeto images/img-carousel-3.jpg" alt="Mesa escritorial">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./projeto images/img-sofisticacao.jpg" class="rounded d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title mt-2">Sobre <span class="text-colored">nós</span></h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias sed sapiente quo quos facere ex labore, officia laudantium fuga. Explicabo dolor, quod excepturi autem veniam hic iusto nobis exercitationem rem?
+                            </p>
+                            <h3 class="section-title mt-2">Nossos produtos <span class="text-colored">são únicos</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eius, optio, adipisci mollitia assumenda suscipit incidunt quia consectetur ipsa minus hic. Suscipit maxime laboriosam cupiditate ab eveniet laudantium! Distinctio, voluptatem?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sofisticacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <h2 class="section-title text-center">Sofisticação e beleza para todos <span class="text-colored">os gostos</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./projeto images/img-cadeira-1.jpg" class="rounded d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            Nossas cadeiras</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias mollitia molestias, eum cumque, inventore reprehenderit distinctio qui deserunt laboriosam perspiciatis, iure commodi doloremque illo temporibus impedit maxime iusto voluptate minima.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./projeto images/img-mesa-1.jpg" class="rounded d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            Nossas mesas</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias mollitia molestias, eum cumque, inventore reprehenderit distinctio qui deserunt laboriosam perspiciatis, iure commodi doloremque illo temporibus impedit maxime iusto voluptate minima.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 pb-3">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-center fs-5 text-start nav-link text-colored active">Mesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-center fs-5 text-start nav-link text-colored">Cadeiras</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10 ps-5">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-2.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-3.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-4.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-2.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-3.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-mesa-4.jpg" alt="Mesa">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-2.jpg" alt="Cadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-3.jpg" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-4.jpg" alt="Cadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-2.jpg" alt="Cadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-3.jpg" alt="Cadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="rounded d-block w-100" src="./projeto images/img-cadeira-4.jpg" alt="Cadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cadeira-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Conte-nos do que você achou!
+                                </label>
+                                <textarea id="mensagem" class="form-control" ></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-7 text-md-center mt-5 pt-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                            <!-- Ou pode se usar o 'ms-1' e 'me-1' ao invés de 'mx-1' -->
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua Cadeira nº 200, Bairro Mesa - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="p-3">
+            <div class="col col-md-12 fs-5 text-center">
+                &copy; Nicolas - EBAC - 2024
+            </div>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="projeto.js"></script>
+</body>
+</html>

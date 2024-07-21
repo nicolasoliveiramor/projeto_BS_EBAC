@@ -1,0 +1,84 @@
+body {
+    font-family: MuseoModerno;
+}
+
+.navbar {
+    background-color: #7d7d00;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #7d7d00;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.section-title {
+    font-family: MuseoModerno;
+}
+
+#sofisticacao, #fale-conosco {
+    background-color: #f3eacb;
+}
+
+#sobre-nos, #produtos {
+    background-color: #efe3ba;
+}
+
+.carousel-item > img  {
+    max-height: 25em;
+    object-fit: cover;
+}
+
+.col-md-6 img, .col-md-4 img {
+    height: 20em;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text-colored {
+    color: #7d7d00;
+}
+
+.nav-produtos .nav-link.active, 
+#fale-conosco button {
+    background-color: #7d7d00;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #7d7d00;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    background-color: #7d7d00;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
